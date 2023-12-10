@@ -22,7 +22,7 @@ if __name__ == '__main__':
     project_dir = sys.argv[1]
     activate_command, install_command = create_venv(project_dir)
 
-    print("Virtual environment created.")
-    print("Run the following commands in your terminal:")
+    print("\nVirtual environment created.")
+    print("\nRun the following commands in your terminal:")
     print(activate_command)
     print(install_command)
