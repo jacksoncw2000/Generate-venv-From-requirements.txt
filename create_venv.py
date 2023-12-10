@@ -3,7 +3,7 @@ import sys
 import subprocess
 
 def create_venv(project_dir):
-    venv_dir = os.path.join(project_dir, 'myenv')
+    venv_dir = os.path.join(project_dir, 'venv')
 
     # Create virtual environment
     subprocess.run([sys.executable, '-m', 'venv', venv_dir], check=True)
